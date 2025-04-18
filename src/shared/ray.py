@@ -13,7 +13,7 @@ if TYPE_CHECKING:
 
 VERSION = "0.16.0"
 APP_TITLE = 'RaySession'
-DEFAULT_SESSION_ROOT = Path.home() / 'Ray Sessions'
+DEFAULT_SESSION_ROOT = Path.home() / '.raysessions'
 SCRIPTS_DIR = 'ray-scripts'
 NOTES_PATH = 'ray-notes'
 FACTORY_SESSION_TEMPLATES = (
